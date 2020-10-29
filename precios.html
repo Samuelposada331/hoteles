@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">  
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="#">Hoteles</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarSupportedContent" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">Nosotros</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Precios</a></li>
+          <li class="nav-item"><a class="nav-link" href="terms.html">Términos y condiciones</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="banner">
+      <img src="images/banner_playa.jpg" class="img-fluid" alt="responsive image" style="width: 100%; height: 400px;">
+      <h2 class=" display-4 " style="margin: 40px;">HOTELES</h2>
+    </div>
+    <div id="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Precios</li>
+        </ol>
+      </nav>
+
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" id="compara-tab" data-toggle="tab" href="#compara" role="tab" aria-controls="compara" aria-selected="false">compara</a> 
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="tarjetas-tab" data-toggle="tab" href="#tarjetas" role="tab" aria-controls="tarjetas" aria-selected="false">tarjetas</a> 
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="comentarios-tab" data-toggle="tab" href="#comentarios" role="tab" aria-controls="comentarios" aria-selected="false">comentarios</a> 
+        </li>
+      </ul>
+
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="compara" role="tabpanel" aria-labelledby="compara-tab">
+          <div class="table-responsive">
+            <table class="table table-striped">
+              <thead >
+                <th>Calidad</th>
+                <th>Santa Marta</th>
+                <th>Arboletes</th>
+                <th>Necoclí</th>
+                <th>Cartagena</th>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><span class="oi oi-star"></span></td>
+                  <td>100</td>
+                  <td>120</td>
+                  <td>160</td>
+                  <td>180</td>
+                </tr>
+                <tr>
+                  <td><span class="oi oi-star"></span><span class="oi oi-star"></span></td>
+                  <td>200</td>
+                  <td>220</td>
+                  <td>260</td>
+                  <td>280</td>
+                </tr>
+                <tr>
+                  <td><span class="oi oi-star"></span>
+                    <span class="oi oi-star"></span>
+                    <span class="oi oi-star"></span></td>
+                  <td>300</td>
+                  <td>320</td>
+                  <td>360</td>
+                  <td>380</td>
+                </tr>
+                <tr>
+                  <td><span class="oi oi-star"></span>
+                    <span class="oi oi-star"></span>
+                    <span class="oi oi-star"></span>
+                    <span class="oi oi-star"></span></td>
+                  <td>400</td>
+                  <td>420</td>
+                  <td>460</td>
+                  <td>480</td>
+                </tr>
+                <tr>
+                  <td><span class="oi oi-star"></span>
+                    <span class="oi oi-star"></span>
+                    <span class="oi oi-star"></span>
+                    <span class="oi oi-star"></span>
+                    <span class="oi oi-star"></span></td>
+                  <td>500</td>
+                  <td>520</td>
+                  <td>560</td>
+                  <td>580</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>  
+      
+      <div class="tab-pane fade" id="tarjetas" role="tabpanel" aria-labelledby="tarjetas-tab">
+        <div class="accordion" id="accordionTarjetas">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseBasica" aria-expanded="true" aria-controls="collapseBasica">
+                  Tarjeta Básica
+                </button>
+              </h5>
+            </div>
+            <div id="collapseBasica" class="collapse" aria-labelledby="headingOne" data-parent="#accordionTarjetas">
+              <div class="card-body">
+                Puedes reservar con la tarjeta basica al plan que prefieras
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseVIP" aria-expanded="false" aria-controls="collapseVIP">
+                  Tarjeta VIP
+                </button>
+              </h5>
+            </div>
+            <div id="collapseVIP" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionTarjetas">
+              <div class="card-body">
+                Puedes reservar con la tarjeta VIP al plan que prefieras con una tasa de descuento del 10%
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseBlack" aria-expanded="false" aria-controls="collapseBlack">
+                  Tarjeta Black
+                </button>
+              </h5>
+            </div>
+            <div id="collapseBlack" class="collapse" aria-labelledby="headingThree" data-parent="#accordionTarjetas">
+              <div class="card-body">
+                Puedes reservar con la tarjeta basica al plan que prefieras, con una tasa de descuento del 10%, ademas obtendras regalos para disfrutar
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-pane fade" id="comentarios" role="tabpanel" aria-labelledby="comentarios-tab">Comentarios</div>
+
+    </div>
+
+    <footer>
+      <div class="row">
+        <div class="col-sm-4 d-flex flex-column">
+          <a href="http://www.twitter.com">twitter</a>
+          <a href="http://www.facebook.com">Facebook</a>
+          <a href="http://www.instagram.com">instagram</a>
+        </div>
+
+        <div class="col-sm-4 d-flex flex-column">
+          <address>
+            <h4>oficina central</h4>
+            <p><span class="oi oi-home footer-address-icon"></span>Medellin-Colombia</p>
+            <p><span class="oi oi-inbox footer-address-icon"></span>contacto@guiahoteles.com</p>
+            <p><span class="oi oi-phone footer-address-icon"></span>+57 320 643 6693</p>
+          </address>
+        </div> 
+
+        <div class="col-sm-4 d-flex flex-column align-items-end">
+          <a href="nosotros.html">Nosotros</a>
+          <a href="precios.html">Precios</a>
+          <a href="term.html">Terminos y condiciones</a>
+        </div>
+      </div>
+    </footer>  
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="node_modules/jquery/dist/jquery.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="node_modules/popper.js/dist/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
