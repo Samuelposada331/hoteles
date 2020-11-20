@@ -9,7 +9,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="open-iconic/font/css/open-iconic-bootstrap.min.css">  
+    <link rel="stylesheet" href="open-iconic/font/css/open-iconic-bootstrap.min.css">
+    
 
     <title>hoteles</title>
   
@@ -95,7 +96,7 @@
         <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
           <img src="images/acqua.jpg" class="card-img-top" alt="responsive-image">
           <div class="card-body">
-            <h5 class="card-title">Hotel Acqua Medellín</h5>
+            <h5 class="card-title" data-toggle="tooltip" data-placement="top" title="Las primeras reservas llevan un suvenir">Hotel Acqua Medellín</h5>
             <h6 class="card-subtitle text-muted">Medellín</h6>
             <p class="card-text">hotel sencillo con habitaciones modernas y desayuyno continental gratuito.</p>
           </div>
@@ -106,7 +107,7 @@
         <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
           <img src="images/ibis.jpg" class="card-img-top" alt="responsive-image">
           <div class="card-body">
-            <h5 class="card-title">Hotel Ibis Medellín</h5>
+            <h5 class="card-title" data-toggle="tooltip" data-placement="top" title="precios rebajados por temporaada">Hotel Ibis Medellín</h5>
             <h6 class="card-subtitle text-muted">Medellín</h6>
             <p class="card-text">Hotel económico y funcional con habitaciones básicas, un sofisticado bar y amplio restaurante.</p>
           </div>
@@ -118,7 +119,7 @@
         <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
           <img src="images/movich1.jpg" class="card-img-top" alt="responsive-image">
           <div class="card-body">
-            <h5 class="card-title">Movich Las Lomas Hotel <span class="badge badge-success">Nuevo</span></h5>
+            <h5 class="card-title" data-toggle="tooltip" data-placement="top" title="Nuevas habitaciones disponibles">Movich Las Lomas Hotel <span class="badge badge-success">Nuevo</span></h5>
             <h6 class="card-subtitle text-muted">Medellín</h6>
             <p class="card-text">Hotel con piscina exterior, restaurante internacional, spa y habitaciones y suites, algunas con balcón.</p>
           </div>
@@ -142,7 +143,7 @@
         <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
           <img src="images/casa_mosaico.jpg" class="card-img-top" alt="responsive-image">
           <div class="card-body">
-            <h5 class="card-title">Casa Mosaico Hotel Boutique</h5>
+            <h5 class="card-title" data-toggle="tooltip" data-placement="top" title="Ultimas reservas">Casa Mosaico Hotel Boutique</h5>
             <h6 class="card-subtitle text-muted">Medellín</h6>
             <p class="card-text">Hotel colonial con habitaciones, suites y una cabaña de estilo bohemio, un spa, un bar y un restaurante</p>
           </div>
@@ -218,6 +219,7 @@
     <script src="jquery/dist/jquery.min.js"></script>
     <script src="popper.js/dist/umd/popper.min.js"></script>
     <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/aldd.js"></script>
     <script>
       $(function(){
         $("[data-toggle='tooltip']").tooltip();
