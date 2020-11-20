@@ -39,7 +39,7 @@
 
     <div class="banner">
       <img src="images/banner_playa.jpg" class="img-fluid" alt="responsive image" style="width: 100%; height: 400px;">
-      <h2 class=" display-4 " style="margin: 40px;">HOTELES</h2>
+      <h2 class=" display-4 " style="margin: 40px;" id="title">HOTELES</h2>
     </div>
       
 </header>
@@ -220,12 +220,7 @@
     <script src="popper.js/dist/umd/popper.min.js"></script>
     <script src="bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/aldd.js"></script>
-    <script>
-      $(function(){
-        $("[data-toggle='tooltip']").tooltip();
-        $("[data-toggle='popover']").popover();
-      });
-    </script>
+
 
 </body>
 
