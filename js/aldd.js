@@ -1,8 +1,11 @@
-document.getElementsByClassName("btn").onmouseover = function() {mouseOver()};
-document.getElementsByClassName("btn").onmouseout = function() {mouseOut()};
-var botones = document.getElementsByClassName("btn");
+const { Button } = require("bootstrap");
 
-//mouse encima
-function mouseOver() {
-  botones.value = "100%";
-}
+button.addEventListener("mouseover", function( event ) {   
+    // highlight the mouseover target
+    event.target.style.color = "orange";
+  
+    // reset the color after a short delay
+    setTimeout(function() {
+      event.target.style.color = "";
+    }, 500);
+  }, false);
