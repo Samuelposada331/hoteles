@@ -33,6 +33,7 @@
           <li class="nav-item"><a class="nav-link" href="precios.html">Precios</a></li>
           <li class="nav-item"><a class="nav-link" href="terms.html">Términos y condiciones</a></li>
           <li class="nav-item"><a class="nav-link" href="contact.html">Contacto</a></li>
+          <li id="modonocturno" class="nav-item"><a class="nav-link">Contacto</a><span class="oi oi-eye"></span></li>
         </ul>
       </div>
     </nav>
