@@ -211,17 +211,10 @@
         </div>
       </div>
     </footer>
-
-
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="jquery/dist/jquery.min.js"></script>
     <script src="popper.js/dist/umd/popper.min.js"></script>
     <script src="bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/aldd.js"></script>
-
-
 </body>
 
 </html>
