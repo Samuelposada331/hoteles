@@ -102,18 +102,18 @@
             <p class="card-text">hotel sencillo con habitaciones modernas y desayuyno continental gratuito.</p>
           </div>
           <div>
-           <button type="button" class="btn btn-outline-success btn-reserva" data-toggle="modal1" data-target="#reserva">Saber mas</button>
+           <button type="button" class="btn btn-outline-success btn-reserva" data-toggle="modal" data-target="#reserva1">Saber mas</button>
           </div>
         </div>
         <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
           <img src="images/ibis.jpg" class="card-img-top" alt="responsive-image">
           <div class="card-body">
-            <h5 class="card-title" data-toggle="tooltip" data-placement="top" title="precios rebajados por temporaada">Hotel Ibis Medellín</h5>
+            <h5 class="card-title" data-toggle="tooltip" data-placement="top" title="precios rebajados por temporada">Hotel Ibis Medellín</h5>
             <h6 class="card-subtitle text-muted">Medellín</h6>
             <p class="card-text">Hotel económico y funcional con habitaciones básicas, un sofisticado bar y amplio restaurante.</p>
           </div>
           <div>
-            <button type="button" class="btn btn-outline-success btn-reserva" data-toggle="modal2" data-target="#reserva" data-toggle="popover" title="reservaciones" data-content="consulta las reservas disponibles">Saber mas</button>
+            <button type="button" class="btn btn-outline-success btn-reserva" data-toggle="modal" data-target="#reserva2" data-toggle="popover" title="reservaciones" data-content="consulta las reservas disponibles">Saber mas</button>
           </div>
         </div>
         
@@ -125,7 +125,7 @@
             <p class="card-text">Hotel con piscina exterior, restaurante internacional, spa y habitaciones y suites, algunas con balcón.</p>
           </div>
           <div>
-            <button type="button" class="btn btn-outline-success btn-reserva" data-toggle="modal3" data-target="#reserva">Saber mas</button>
+            <button type="button" class="btn btn-outline-success btn-reserva" data-toggle="modal" data-target="#reserva3">Saber mas</button>
           </div>
         </div>
 
@@ -137,7 +137,7 @@
             <p class="card-text">Torre de apartamentos con habitaciones de estilo clásico, piscina y terraza en la azotea.</p>
           </div>
           <div>
-            <button type="button" class="btn btn-outline-success btn-reserva" data-toggle="modal4" data-target="#reserva">Saber mas</button>
+            <button type="button" class="btn btn-outline-success btn-reserva" data-toggle="modal" data-target="#reserva4">Saber mas</button>
           </div>
         </div>
 
@@ -149,7 +149,7 @@
             <p class="card-text">Hotel colonial con habitaciones, suites y una cabaña de estilo bohemio, un spa, un bar y un restaurante</p>
           </div>
           <div>
-            <button type="button" class="btn btn-outline-success btn-reserva" data-toggle="modal5" data-target="#reserva20">Saber mas</button>
+            <button type="button" class="btn btn-outline-success btn-reserva" data-toggle="modal" data-target="#reserva5">Saber mas</button>
           </div>
         </div>
       </div>
