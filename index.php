@@ -92,7 +92,7 @@
 
      <!-- Container-->
 
-     <div class="d-flex flex-wrap flex-row-reverse">
+     <div id="catalogo" class="d-flex flex-wrap flex-row-reverse">
         <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
           <img src="images/acqua.jpg" class="card-img-top" alt="responsive-image">
           <div class="card-body">

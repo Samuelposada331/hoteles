@@ -4,15 +4,12 @@ $(function(){
     $("[data-toggle='popover']").popover();
   });
 
-document.getElementById("hombre").onmouseover = function (){
+document.getElementById("catalogo").onmouseover = function (){
     var imagenes = document.getElementsByClassName("card-img-top").style.width="100%";
     var imagenes = document.getElementsByClassName("card-img-top").style.height="100%";
-    
 }
 
-document.getElementById("hombre").onmouseout = function (){
+document.getElementById("catalogo").onmouseout = function (){
     var portadahoteles = document.getElementsByClassName("card-img-top").style.width="500px";
-    var portadahoteles = document.getElementsByClassName("card-img-top").style.height="100%";
-
-    
+    var portadahoteles = document.getElementsByClassName("card-img-top").style.height="100%";    
 }
