@@ -33,7 +33,7 @@
           <li class="nav-item"><a class="nav-link" href="precios.html">Precios</a></li>
           <li class="nav-item"><a class="nav-link" href="terms.html">Términos y condiciones</a></li>
           <li class="nav-item"><a class="nav-link" href="contact.html">Contacto</a></li>
-          <li id="modonocturno" class="nav-item"><a class="nav-link">Contacto</a><span class="oi oi-eye"></span></li>
+           <li id="modonocturno" class="nav-item"><a class="nav-link"><span class="oi oi-eye"></span></li>
         </ul>
       </div>
     </nav>
@@ -102,7 +102,7 @@
             <p class="card-text">hotel sencillo con habitaciones modernas y desayuyno continental gratuito.</p>
           </div>
           <div>
-           <button type="button" class="btn btn-outline-success btn-reserva" data-toggle="modal" data-target="#reserva">Saber mas</button>
+           <button type="button" class="btn btn-outline-success btn-reserva" data-toggle="modal1" data-target="#reserva">Saber mas</button>
           </div>
         </div>
         <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
@@ -113,7 +113,7 @@
             <p class="card-text">Hotel económico y funcional con habitaciones básicas, un sofisticado bar y amplio restaurante.</p>
           </div>
           <div>
-            <button type="button" class="btn btn-outline-success btn-reserva" data-toggle="modal" data-target="#reserva" data-toggle="popover" title="reservaciones" data-content="consulta las reservas disponibles">Saber mas</button>
+            <button type="button" class="btn btn-outline-success btn-reserva" data-toggle="modal2" data-target="#reserva" data-toggle="popover" title="reservaciones" data-content="consulta las reservas disponibles">Saber mas</button>
           </div>
         </div>
         
@@ -125,7 +125,7 @@
             <p class="card-text">Hotel con piscina exterior, restaurante internacional, spa y habitaciones y suites, algunas con balcón.</p>
           </div>
           <div>
-            <button type="button" class="btn btn-outline-success btn-reserva" data-toggle="modal" data-target="#reserva">Saber mas</button>
+            <button type="button" class="btn btn-outline-success btn-reserva" data-toggle="modal3" data-target="#reserva">Saber mas</button>
           </div>
         </div>
 
@@ -137,7 +137,7 @@
             <p class="card-text">Torre de apartamentos con habitaciones de estilo clásico, piscina y terraza en la azotea.</p>
           </div>
           <div>
-            <button type="button" class="btn btn-outline-success btn-reserva" data-toggle="modal" data-target="#reserva">Saber mas</button>
+            <button type="button" class="btn btn-outline-success btn-reserva" data-toggle="modal4" data-target="#reserva">Saber mas</button>
           </div>
         </div>
 
@@ -149,7 +149,7 @@
             <p class="card-text">Hotel colonial con habitaciones, suites y una cabaña de estilo bohemio, un spa, un bar y un restaurante</p>
           </div>
           <div>
-            <button type="button" class="btn btn-outline-success btn-reserva" data-toggle="modal" data-target="#reserva20">Saber mas</button>
+            <button type="button" class="btn btn-outline-success btn-reserva" data-toggle="modal5" data-target="#reserva20">Saber mas</button>
           </div>
         </div>
       </div>
@@ -158,7 +158,119 @@
 
       <!---Modal--->
 
-      <div class="modal fade" id="reserva20" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true"><!--Duda-->
+      <div class="modal fade" id="reserva1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true"><!--Duda-->
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Contacto con el hotel</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="recipient-name" class="col-form-label">Tu email</label>
+                  <input type="text" class="form-control" id="recipient-name">
+                </div>
+                <div class="form-group">
+                  <label for="message-text" class="col-form-label">Mensaje</label>
+                  <textarea class="form-control" id="message-text"></textarea>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-success">Enviar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="reserva2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true"><!--Duda-->
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Contacto con el hotel</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="recipient-name" class="col-form-label">Tu email</label>
+                  <input type="text" class="form-control" id="recipient-name">
+                </div>
+                <div class="form-group">
+                  <label for="message-text" class="col-form-label">Mensaje</label>
+                  <textarea class="form-control" id="message-text"></textarea>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-success">Enviar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="reserva3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true"><!--Duda-->
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Contacto con el hotel</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="recipient-name" class="col-form-label">Tu email</label>
+                  <input type="text" class="form-control" id="recipient-name">
+                </div>
+                <div class="form-group">
+                  <label for="message-text" class="col-form-label">Mensaje</label>
+                  <textarea class="form-control" id="message-text"></textarea>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-success">Enviar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="reserva4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true"><!--Duda-->
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Contacto con el hotel</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="recipient-name" class="col-form-label">Tu email</label>
+                  <input type="text" class="form-control" id="recipient-name">
+                </div>
+                <div class="form-group">
+                  <label for="message-text" class="col-form-label">Mensaje</label>
+                  <textarea class="form-control" id="message-text"></textarea>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-success">Enviar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="reserva5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true"><!--Duda-->
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
